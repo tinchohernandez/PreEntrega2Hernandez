@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -46,6 +47,11 @@ main {
     width: 100%;
     background-image: linear-gradient(grey 55% , blue);
 }
+article{
+    background-color: whitesmoke;
+    border: 2px solid rgb(23, 23, 211);
+    height: 328px;
+}
 .home{
     height: 100vh;
     height: 100%;
@@ -81,15 +87,14 @@ h1{
     background-color:black;
     border: 2px solid rgb(23, 23, 211);
 }
+
 footer{
-    height: 150px;
-    width: 100%;
-    padding: 10px;
     color: rgb(23, 23, 211);
     background-color:rgb(102, 98, 98);
     font-family: 'Fira Sans', sans-serif;
     
 }
+
 .empresa{
     font-size: 16px;
     text-align: left;
