@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.navbar{
+    background-color: rgba(170, 162, 162);
+}
+.navbar a{
+    color: whitesmoke !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.navbar-toggler i{
+    color: whitesmoke;
+    font-size: 20px;
+}
+.nav-item{
+    text-align: center;
+}
+.nav-item :hover{
+    background-color: rgb(76, 76, 228);
+}
+.imagen{
+    width: 130px;
+    }
+
+.principal{
+    padding: 5px;
+    background-color:rgb(76, 76, 228);
+    background-image: url(../img/monitor-1307227_1920.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron{
+    margin: 35px;
+    padding: 25px;
+    background-color:  rgba(170, 162, 162, 0.851);
+    color: white;
+    border-radius: 10px;
+}
+.jumbotron h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.jumbotron p{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.h2-serv{
+    background-color: rgb(76, 76, 228);
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.img-alarma{
+    background-image: url(../img/alarmas_residencias.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.txt-alarma{
+    background-color:rgba(170, 162, 162) ;
+    font-family:'Ubuntu', sans-serif ;
+    color: white;
+    padding: 20px;
+}
+.txt-alarma p::first-letter{
+    color:rgb(76, 76, 228);
+    font-size: 30px;
+}
+.txt-alarma h3{
+    text-align: center;
+    font-family:'Ubuntu', sans-serif ;
+}
+.txt-alarma a{
+    background-color:rgb(76, 76, 228);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family:'Ubuntu', sans-serif;
+}
+.img-cam{
+    background-image: url(../img/pexels-burst-374103.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.txt-cam{
+    background-color:rgb(76, 76, 228);
+    font-family:'Ubuntu', sans-serif ;
+    color: white;
+    padding: 20px;
+}
+.txt-cam p::first-letter{
+    color:rgba(170, 162, 162);
+    font-size: 30px;
+}
+.txt-cam h3{
+    text-align: center;
+    font-family:'Ubuntu', sans-serif ;
+}
+.txt-cam a{
+    background-color:rgba(170, 162, 162) ;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family:'Ubuntu', sans-serif;
+}
+.img-red{
+    background-image: url(../img/pexels-brett-sayles-2881232.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.img-pc{
+    background-image: url(../img/pc-5737958_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.datos{
+    background-color:rgba(170, 162, 162);
+    font-family:'Ubuntu', sans-serif;
+    border: 2px solid rgb(76, 76, 228);
+}
+.datos h4{
+    text-align: center;
+    background-color:black;
+    color: white;    
+}
+.f-enlaces ul li{
+list-style: none;
+text-align: center;
+font: 25px;
+padding: 10px;
+color:rgb(76, 76, 228);
+}
+.f-rs{
+    font-size: 45px;
+    text-align: center;
+    color:rgb(76, 76, 228);
+}
+.f-dire{
+    text-align: center;
+    color:rgb(76, 76, 228);
+}
+.formu{
+    box-sizing: border-box;
+    background-color: rgb(76, 76, 228);
+    margin: 5px;
+    border: 3px;
+    padding: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    font-family:'Ubuntu', sans-serif;
+}
+.formu h2{
+    text-align: center;
+}
+.formu h3{
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    padding: 1em;
+    background-color: rgba(170, 162, 162, 0.851);
+}
+.input-group{
+    padding: 10px;
+}
+.input-group > label{
+display: block;
+margin: 5px;
+}
+::-webkit-scrollbar{
+    background-color: rgba(170, 162, 162);
+    }
+::-webkit-scrollbar-track{
+background-color: rgba(170, 162, 162);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(76, 76, 228);
+    }
