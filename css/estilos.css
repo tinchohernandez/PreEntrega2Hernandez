@@ -173,14 +173,7 @@ color:rgb(76, 76, 228);
     display: flex;
     justify-content: center;
 }
-.column{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: space-around;
-    padding: 1em;
-    background-color: rgba(170, 162, 162, 0.851);
-}
+
 .input-group{
     padding: 10px;
 }
@@ -210,5 +203,16 @@ background-color: rgba(170, 162, 162);
     .total-form{
         border: 2px solid #000;
         padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 682px) {
+    .column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-around;
+        padding: 1em;
+        background-color: rgba(170, 162, 162, 0.851);
     }
 }
