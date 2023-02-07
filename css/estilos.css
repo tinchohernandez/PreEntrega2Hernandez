@@ -197,3 +197,18 @@ background-color: rgba(170, 162, 162);
 ::-webkit-scrollbar-thumb{
     background-color: rgb(76, 76, 228);
     }
+
+@media only screen and (max-width: 682px) {
+    .column{
+        display: flex;
+        background-color: transparent;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-around;
+        padding: 1em;
+    }
+    .total-form{
+        border: 2px solid #000;
+        padding: 5px;
+    }
+}
